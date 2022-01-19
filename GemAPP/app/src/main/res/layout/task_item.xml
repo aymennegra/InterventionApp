@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_marginLeft="20dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="nom"
+            android:textColor="@color/black"></TextView>
+        <TextView
+            android:id="@+id/nomtache"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="nom"
+            android:textColor="@color/black"></TextView>
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:text="duree"
+            android:textColor="@color/black"></TextView>
+        <TextView
+            android:id="@+id/dureetache"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="duree"
+            android:textColor="@color/black"></TextView>
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_height="wrap_content"
+            android:text="prix/h"
+            android:textColor="@color/black"></TextView>
+        <TextView
+            android:id="@+id/prixheure"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="prix"
+            android:textColor="@color/black"></TextView>
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_marginTop="60dp"
+            android:layout_height="wrap_content"
+            android:text="date"
+            android:textColor="@color/black"></TextView>
+        <TextView
+            android:id="@+id/datetache"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="date"
+            android:textColor="@color/black"></TextView>
+    </RelativeLayout>
+
+

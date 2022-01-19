@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/intervention"
+            android:title="@string/menu_intervention"
+            android:iconTint="@android:color/white"
+            />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/interven_assign"
+            android:title="@string/menu_interv_ass"
+            android:iconTint="@android:color/white"/>
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/message"
+            android:title="@string/menu_Messages"
+            android:iconTint="@android:color/white"
+            />
+        <item
+            android:id="@+id/nav_client"
+            android:icon="@drawable/client"
+            android:title="Client"
+            android:iconTint="@android:color/white"/>
+        <item
+            android:id="@+id/nav_Adresses"
+            android:icon="@drawable/adress"
+            android:title="Adresses"
+            android:iconTint="@android:color/white"/>
+        <item
+            android:id="@+id/nav_paramétres"
+            android:icon="@drawable/param"
+            android:title="Paramètres"
+            android:iconTint="@android:color/white"/>
+        <item
+            android:id="@+id/nav_apropos"
+            android:icon="@drawable/about"
+            android:title="A Propos"
+            android:iconTint="@android:color/white"/>
+        <item
+            android:id="@+id/nav_decon"
+            android:icon="@drawable/ic_baseline_logout_24"
+            android:title="Déconnexion"
+            android:iconTint="@android:color/white"/>
+</menu>

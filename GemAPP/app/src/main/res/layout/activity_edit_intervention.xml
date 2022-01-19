@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Editintervention">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Modifier intervention"
+        android:textStyle="bold"
+        android:textSize="24dp"
+        android:textColor="@color/blue_200"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"></TextView>
+
+    <EditText
+        android:id="@+id/titre_edit"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:hint="titre"
+        android:layout_centerHorizontal="true"></EditText>
+    <EditText
+        android:id="@+id/comment_edit"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:hint="commentaire"
+        android:layout_centerHorizontal="true"></EditText>
+    <EditText
+        android:id="@+id/date_debut"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:hint="date debut"
+        android:layout_centerHorizontal="true"></EditText>
+    <EditText
+        android:id="@+id/date_fin"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:hint="date fin"
+        android:layout_centerHorizontal="true"></EditText>
+
+    <Button
+        android:id="@+id/btn_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Modifier"
+        android:backgroundTint="@color/blue_200"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="330dp"></Button>
+
+
+</RelativeLayout>

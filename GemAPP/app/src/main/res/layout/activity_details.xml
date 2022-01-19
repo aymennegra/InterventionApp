@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    tools:context=".Details">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/blue_200"
+        >
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_back"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="80dp"
+            android:background="@drawable/ic_baseline_chevron_left_24"></androidx.appcompat.widget.AppCompatButton>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/delete"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="170dp"
+            android:padding="80dp"
+            android:background="@drawable/ic_baseline_delete_24"
+            android:layout_marginLeft="150dp"></androidx.appcompat.widget.AppCompatButton>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/edit"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:padding="80dp"
+            android:background="@drawable/ic_baseline_note_alt_24"
+            android:layout_marginLeft="150dp"></androidx.appcompat.widget.AppCompatButton>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/sync"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:padding="80dp"
+            android:background="@drawable/ic_baseline_sync_24"
+            android:layout_marginLeft="150dp"></androidx.appcompat.widget.AppCompatButton>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp"
+        android:background="@color/blue_200"
+
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="INTERVENTION MOBILE"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="100dp"
+           >
+
+        </TextView>
+    </LinearLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:background="@color/white"
+
+        android:layout_marginTop="80dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+
+        <TextView
+            android:id="@+id/titre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:text="commentaire"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/heuredebut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="63dp"
+            android:text="heure_debut"
+            android:textColor="#aeaeae"
+            android:textSize="12dp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/heurefin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="63dp"
+            android:text="heure_fin"
+            android:textColor="#aeaeae"
+            android:textSize="12dp"
+            android:textStyle="normal"
+            android:layout_marginLeft="10dp" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="180dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:text="Terminé"
+            android:layout_marginStart="250dp"
+            android:layout_marginLeft="250dp">
+
+        </TextView>
+        <Switch
+            android:id="@+id/simpleSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        android:layout_marginTop="220dp"
+        >
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:text="Details"
+            ></androidx.appcompat.widget.AppCompatButton>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="Fichiers"
+            android:backgroundTint="@color/white"
+            ></androidx.appcompat.widget.AppCompatButton>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:text="Signature"
+            ></androidx.appcompat.widget.AppCompatButton>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/blue_200"
+        android:orientation="vertical"
+        android:layout_marginTop="280dp">
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@color/blue_200"
+            android:text="Planifiée"
+            android:textSize="20dp"
+            android:textColor="@color/white">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/blue_200"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="280dp">
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+           android:layout_marginLeft="50dp"
+            android:text="Effectué"
+            android:textSize="20dp"
+            android:textColor="@color/white">
+
+        </TextView>
+
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="320dp"
+        android:id="@+id/taskrecycler">
+
+    </androidx.recyclerview.widget.RecyclerView>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="200dp"
+        android:layout_marginLeft="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="320dp"
+        android:id="@+id/taskeffectrecycler">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Client"
+            android:layout_marginTop="500dp"
+            android:background="@color/blue_200"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            ></TextView>
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_marginTop="530dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/clientrecycler">
+
+            </androidx.recyclerview.widget.RecyclerView>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/blue_200"
+        android:layout_marginTop="700dp"
+        android:text="Carte"
+        android:textColor="@color/white"
+        android:id="@+id/carte">
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+
+
+
+</RelativeLayout>
